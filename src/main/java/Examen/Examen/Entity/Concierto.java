@@ -22,7 +22,6 @@ public class Concierto implements Serializable {
     private long capacidad;
     private String lugar;
 
-
     public long getId() {
         return id;
     }
@@ -70,8 +69,5 @@ public class Concierto implements Serializable {
     public void setLugar(String lugar) {
         this.lugar = lugar;
     }
-
-
- 
 
 }
